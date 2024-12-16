@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLW Kids</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: red;
+      color: white;
+      padding: 10px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+    }
+    .record-table {
+      margin: 20px auto;
+      width: 80%;
+      border-collapse: collapse;
+    }
+    .record-table th, .record-table td {
+      border: 1px solid red;
+      padding: 10px;
+      text-align: center;
+    }
+    .record-table th {
+      background-color: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div id="whole">
+  <header>
+    <h1>MLW Kids - League Records</h1>
+  </header>
+  <main>
+    <h2>Current Standings</h2>
+    <h3>Only spring training, real season starts the day we get back</h3>
+    <p>Team One = Sebby, Rowman, and jack Conners</p>
+    <p>Team Two = jack Peyton, Blake, and Luke</p>
+    <table class="record-table">
+      <thead>
+        <tr>
+          <th>Team Name</th>
+          <th>Wins</th>
+          <th>Losses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Team One</td>
+          <td id="teamOneWins">0</td> <!-- You can change the number directly in this file -->
+          <td id="teamOneLosses">0</td> <!-- You can change the number directly in this file -->
+        </tr>
+        <tr>
+          <td>Team Two</td>
+          <td id="teamTwoWins">0</td> <!-- You can change the number directly in this file -->
+          <td id="teamTwoLosses">0</td> <!-- You can change the number directly in this file -->
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  </div>
+  <footer>
+    <p>&copy; 2024 MLW Kids. All rights reserved.</p>
+    <p>owned By Sebastian Berger.</p>
+  </footer>
+</body>
+</html>
